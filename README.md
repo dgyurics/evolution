@@ -20,25 +20,9 @@ python tsp.py
 
 This will generate an optimal path for the given list of cities, based on the genetic algorithm.
 
-## Configuration
-
-You can configure the program by editing the variables at the top of the `tsp.py` file:
-
-```python
-POPULATION_SIZE = 100
-GENERATIONS = 1000
-MUTATION_RATE = 0.1
-ELITISM = True
-TOURNAMENT_SIZE = 5
-```
-
-- `POPULATION_SIZE`: the number of genomes in each generation.
-- `GENERATIONS`: the number of generations to run.
-- `MUTATION_RATE`: the probability of a mutation occurring in a genome.
-- `ELITISM`: whether to keep the fittest genome from each generation in the next generation.
-- `TOURNAMENT_SIZE`: the number of genomes to randomly select for the tournament selection process.
-
-You can also configure the list of cities by editing the `generate_graph` function in the `tsp.py` file. Each city should be represented as a node in the graph, and the edges should represent the distances between the cities.
+## Configuration  
+</br>
+You can configure the list of cities by editing the `generate_graph` function in the `tsp.py` file. Each city should be represented as a node in the graph, and the edges should represent the distances between the cities.</br></br>
 
 ## License
 
